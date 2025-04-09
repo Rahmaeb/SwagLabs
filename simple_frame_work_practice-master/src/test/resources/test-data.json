@@ -1,0 +1,75 @@
+{"login-credentials": {
+  "users": {
+    "standardUser": {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    },
+    "lockedOutUser": {
+      "username": "locked_out_user",
+      "password": "secret_sauce"
+    },
+    "problemUser": {
+      "username": "problem_user",
+      "password": "secret_sauce"
+    },
+    "performanceGlitchUser": {
+      "username": "performance_glitch_user",
+      "password": "secret_sauce"
+    },
+    "errorUser": {
+      "username": "error_user",
+      "password": "secret_sauce"
+    },
+    "visualUser": {
+      "username": "visual_user",
+      "password": "secret_sauce"
+    }
+  }
+},
+  "product-names": {
+    "item-1": {
+      "name": "Sauce Labs Backpack",
+      "price": "$29.99"
+    },
+    "item-2": {
+      "name": "Sauce Labs Bolt T-Shirt",
+      "price": "$15.99"
+    },
+    "item-3": {
+      "name": "Sauce Labs Onesie",
+      "price": "$7.99"
+    },
+    "item-4": {
+      "name": "Sauce Labs Bike Light",
+      "price": "$9.99"
+    },
+    "item-5": {
+      "name": "Sauce Labs Fleece Jacket",
+      "price": "$49.99"
+    },
+    "item-6": {
+      "name": "Test.allTheThings() T-Shirt (Red)",
+      "price": "$15.99"
+    }
+  },
+  "checkout-data": {
+    "first-name": "Test_First",
+    "last-name": "Test_Last",
+    "zip-code": "596321"
+  },
+  "checkout-final-data": {
+    "thank-you-msg": "Thank you for your order!"
+  },
+  "sort-options": {
+    "aToZ": "az",
+    "zToA": "za",
+    "lowToHigh": "lohi",
+    "highToLow": "hilo"
+  },
+  "locators": {
+    "sort-dropdown": {
+      "className": "product_sort_container"
+    }
+  }
+}
+
