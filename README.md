@@ -32,6 +32,7 @@ This project validates:
 
 ⸻
 
+
 📂 Project Structure
 
 1️⃣ Test Cases & Bug Reports
@@ -46,8 +47,6 @@ This project validates:
 
  • 📄 Database Testing.pdf → Database validation
  
- • 📄 CSVSample_user.csv → Sample user data
-
 3️⃣ API Testing
 
  • 📄 API TESTING.pdf → API test cases
@@ -59,6 +58,8 @@ This project validates:
 5️⃣ Performance Testing (JMeter)
 
  • 📂 Jmeter GUI → Load and performance testing
+ • 📄 CSVSample_user.csv → Sample user data
+
 
 ⸻
 
