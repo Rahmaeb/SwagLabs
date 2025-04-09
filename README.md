@@ -1,10 +1,15 @@
 SwagLabs Testing Suite
 
 A comprehensive testing suite for Swag Labs, covering:
+
  • ✅ Functional Testing
+ 
  • ✅ UI Testing
+ 
  • ✅ Performance Testing
+
  • ✅ API Testing
+ 
  • ✅ Automation & Manual Testing
 
 ⸻
