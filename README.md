@@ -1,4 +1,10 @@
-SwagLabs Testing Suite
+**SwagLabs Testing Suite**
+
+ ## Team Members
+- [Rahma Ebraheem](https://github.com/Rahmaeb)
+- [Kerolos Youssef](https://github.com/KerolosYoussefoff)
+- [Omar Shoaib](https://github.com/omarshoap)
+- [Donia Tarek](https://github.com/DoniaElshazly)
 
 A comprehensive testing suite for Swag Labs, covering:
 
