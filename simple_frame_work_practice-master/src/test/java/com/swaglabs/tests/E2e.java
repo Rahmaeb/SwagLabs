@@ -12,7 +12,7 @@ public class E2e extends BaseClass {
     @Test
     public void successfullLogin() {
         new LoginPage(DriverManager.getDriver())
-                .enterUserName(testData.getJsonData("login-credentials.users.errorUser.username"))
+                .enterUserName(testData.getJsonData("login-credentials.users.standardUser.username"))
                 .enterPassword(testData.getJsonData("login-credentials.users.standardUser.password"))
                 .clickLogin()
                 .assertSuccessfulLoginSoft();

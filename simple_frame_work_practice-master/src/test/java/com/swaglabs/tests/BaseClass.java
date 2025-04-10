@@ -44,7 +44,7 @@ public class BaseClass {
     @AfterSuite(alwaysRun = true)
     public static void generateAndServeReport() throws Exception {
         AllureUtils.generateAndServeReport(
-                "D:\\allure-2.33.0\\bin\\allure.bat",
+                "C:\\Users\\rahma\\Downloads\\allure-2.33.0\\allure-2.33.0\\bin\\allure.bat",
                 "test-outputs/allure-results",
                 "allure-report"
         );
