@@ -72,4 +72,12 @@ This project validates:
  
  • 🛠 Selenium → UI Automation
  
- • 🛠 Jira → Test Case & Bug Tracking
+ • 🛠 Jira → Bug Tracking
+
+ • 🛠 Excel → Test Cases & Bug Tracking
+
+ • 🛠 Jenkins → CI/CD
+ 
+
+
+ 
