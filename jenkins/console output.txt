@@ -1,0 +1,33 @@
+Started by user admin
+Running as SYSTEM
+Building in workspace C:\ProgramData\Jenkins\.jenkins\workspace\DEPI Project 1
+The recommended git tool is: NONE
+No credentials specified
+ > git.exe rev-parse --resolve-git-dir C:\ProgramData\Jenkins\.jenkins\workspace\DEPI Project 1\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/Rahmaeb/SwagLabs # timeout=10
+Fetching upstream changes from https://github.com/Rahmaeb/SwagLabs
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.47.1.windows.1'
+ > git.exe fetch --tags --force --progress -- https://github.com/Rahmaeb/SwagLabs +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision 99c91d53c65a2e878d3fa9c0e9ea6dc949e4c896 (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 99c91d53c65a2e878d3fa9c0e9ea6dc949e4c896 # timeout=10
+Commit message: "Update README.md"
+First time build. Skipping changelog.
+[Checks API] No suitable checks publisher found.
+The recommended git tool is: NONE
+No credentials specified
+ > git.exe rev-parse "99c91d53c65a2e878d3fa9c0e9ea6dc949e4c896^{commit}" # timeout=10
+The recommended git tool is: NONE
+No credentials specified
+[GitCheckoutListener] Recording commits of 'git https://github.com/Rahmaeb/SwagLabs'
+[GitCheckoutListener] Found no previous build with recorded Git commits
+[GitCheckoutListener] -> Starting initial recording of commits
+[GitCheckoutListener] -> Single parent commit found - branch is already descendant of target branch head
+[GitCheckoutListener] -> Using head commit '99c91d5' as starting point
+[GitCheckoutListener] -> Recorded ١٤ new commits
+[GitCheckoutListener] -> Git commit decorator successfully obtained 'hudson.plugins.git.browser.GithubWeb@5faf5933' to render commit links
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS
