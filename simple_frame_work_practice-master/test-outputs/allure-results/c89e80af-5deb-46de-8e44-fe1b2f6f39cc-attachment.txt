@@ -1,0 +1,208 @@
+[DEBUG] - [12-04-2025 00:32:24] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\rahma\AppData\Local\JetBrains\IdeaIC2024.2\temp-testng-customsuite.xml"
+[WARN] - [12-04-2025 00:32:26] [main] [org.testng.internal.Configuration] - Detected a static method [com.swaglabs.tests.BaseClass.generateAndServeReport()]. Static configuration methods can cause unexpected behavior.
+[WARN] - [12-04-2025 00:32:26] [main] [org.testng.internal.Configuration] - Detected a static method [com.swaglabs.tests.BaseClass.generateAndServeReport()]. Static configuration methods can cause unexpected behavior.
+[WARN] - [12-04-2025 00:32:26] [main] [org.testng.internal.Configuration] - Detected a static method [com.swaglabs.tests.BaseClass.generateAndServeReport()]. Static configuration methods can cause unexpected behavior.
+[WARN] - [12-04-2025 00:32:26] [main] [org.testng.internal.Configuration] - Detected a static method [com.swaglabs.tests.BaseClass.generateAndServeReport()]. Static configuration methods can cause unexpected behavior.
+[INFO] - [12-04-2025 00:32:26] [main] [com.swaglabs.listeners.TestNGListeners] - Test Execution start 
+[INFO] - [12-04-2025 00:32:26] [main] [com.swaglabs.utils.propertiesUtils] - Loading properties file data 
+[INFO] - [12-04-2025 00:32:26] [main] [com.swaglabs.utils.FilesUtils] - Skipping recently modified file: test-outputs\Logs\log_2025-04-12_00-32-24.log
+[INFO] - [12-04-2025 00:32:26] [main] [com.swaglabs.utils.FilesUtils] - Successfully cleaned directory: test-outputs\Logs
+[INFO] - [12-04-2025 00:32:26] [main] [com.swaglabs.utils.FilesUtils] - Successfully cleaned directory: test-outputs\screenshots
+[INFO] - [12-04-2025 00:32:26] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\rahma\AppData\Local\JetBrains\IdeaIC2024.2\temp-testng-customsuite.xml
+
+[INFO] - [12-04-2025 00:32:30] [main] [com.swaglabs.driver.DriverManager] - The browser name is :  Edge
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.BrowserActions] - Opening the website :  https://www.saucedemo.com/
+[DEBUG] - [12-04-2025 00:32:33] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['users']['standardUser']['username']
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //input[@id='user-name']
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.xpath: //input[@id='user-name']
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //input[@id='user-name']
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.ElementAction] - The data sent to the element is :  standard_user  and the locator is :  By.xpath: //input[@id='user-name']
+[DEBUG] - [12-04-2025 00:32:33] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['users']['standardUser']['password']
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //input[@id='password']
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.xpath: //input[@id='password']
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //input[@id='password']
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.ElementAction] - The data sent to the element is :  secret_sauce  and the locator is :  By.xpath: //input[@id='password']
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //input[@id='login-button']
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable :  By.xpath: //input[@id='login-button']
+[INFO] - [12-04-2025 00:32:34] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //input[@id='login-button']
+[INFO] - [12-04-2025 00:32:34] [main] [com.swaglabs.utils.ElementAction] - The element is clicked and the locator is :  By.xpath: //input[@id='login-button']
+[INFO] - [12-04-2025 00:32:34] [main] [com.swaglabs.utils.BrowserActions] - Getting the current URL :  https://www.saucedemo.com/inventory.html
+[INFO] - [12-04-2025 00:32:34] [main] [com.swaglabs.utils.BrowserActions] - Getting the page title :  Swag Labs
+[DEBUG] - [12-04-2025 00:32:35] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item-1']['name']
+[INFO] - [12-04-2025 00:32:35] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  [unknown locator]
+[INFO] - [12-04-2025 00:32:35] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable :  [unknown locator]
+[INFO] - [12-04-2025 00:32:35] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  [unknown locator]
+[INFO] - [12-04-2025 00:32:35] [main] [com.swaglabs.utils.ElementAction] - The element is clicked and the locator is :  [unknown locator]
+[INFO] - [12-04-2025 00:32:35] [main] [com.swaglabs.pages.InventoryPage] - The product:Sauce Labs Backpackis added to cart.
+[DEBUG] - [12-04-2025 00:32:35] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item-2']['name']
+[INFO] - [12-04-2025 00:32:35] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  [unknown locator]
+[INFO] - [12-04-2025 00:32:35] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable :  [unknown locator]
+[INFO] - [12-04-2025 00:32:35] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  [unknown locator]
+[INFO] - [12-04-2025 00:32:35] [main] [com.swaglabs.utils.ElementAction] - The element is clicked and the locator is :  [unknown locator]
+[INFO] - [12-04-2025 00:32:35] [main] [com.swaglabs.pages.InventoryPage] - The product:Sauce Labs Bike Lightis added to cart.
+[DEBUG] - [12-04-2025 00:32:35] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item-2']['name']
+[INFO] - [12-04-2025 00:32:35] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  [unknown locator]
+[INFO] - [12-04-2025 00:32:35] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  [unknown locator]
+[INFO] - [12-04-2025 00:32:35] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  [unknown locator]
+[INFO] - [12-04-2025 00:32:36] [main] [com.swaglabs.utils.ElementAction] - Getting element text : [unknown locator] Text :  Remove
+[INFO] - [12-04-2025 00:32:36] [main] [com.swaglabs.pages.InventoryPage] - Actual :Remove
+[INFO] - [12-04-2025 00:32:36] [main] [com.swaglabs.pages.InventoryPage] - Sauce Labs Bike Light product is added to the cart.
+[INFO] - [12-04-2025 00:32:36] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.className: shopping_cart_container
+[INFO] - [12-04-2025 00:32:36] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable :  By.className: shopping_cart_container
+[INFO] - [12-04-2025 00:32:36] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.className: shopping_cart_container
+[INFO] - [12-04-2025 00:32:36] [main] [com.swaglabs.utils.ElementAction] - The element is clicked and the locator is :  By.className: shopping_cart_container
+[DEBUG] - [12-04-2025 00:32:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item-1']['name']
+[DEBUG] - [12-04-2025 00:32:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item-1']['price']
+[INFO] - [12-04-2025 00:32:36] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //button[contains(@data-test,'remove-sauce-labs-backpack')]/ancestor::div[@class='cart_item']//div[@data-test='inventory-item-name']
+[INFO] - [12-04-2025 00:32:36] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.xpath: //button[contains(@data-test,'remove-sauce-labs-backpack')]/ancestor::div[@class='cart_item']//div[@data-test='inventory-item-name']
+[INFO] - [12-04-2025 00:32:36] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //button[contains(@data-test,'remove-sauce-labs-backpack')]/ancestor::div[@class='cart_item']//div[@data-test='inventory-item-name']
+[INFO] - [12-04-2025 00:32:36] [main] [com.swaglabs.utils.ElementAction] - Getting element text : By.xpath: //button[contains(@data-test,'remove-sauce-labs-backpack')]/ancestor::div[@class='cart_item']//div[@data-test='inventory-item-name'] Text :  Sauce Labs Backpack
+[INFO] - [12-04-2025 00:32:36] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //button[contains(@data-test,'remove-sauce-labs-backpack')]/ancestor::div[@class='cart_item']//div[@data-test='inventory-item-price']
+[INFO] - [12-04-2025 00:32:36] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.xpath: //button[contains(@data-test,'remove-sauce-labs-backpack')]/ancestor::div[@class='cart_item']//div[@data-test='inventory-item-price']
+[INFO] - [12-04-2025 00:32:36] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //button[contains(@data-test,'remove-sauce-labs-backpack')]/ancestor::div[@class='cart_item']//div[@data-test='inventory-item-price']
+[INFO] - [12-04-2025 00:32:36] [main] [com.swaglabs.utils.ElementAction] - Getting element text : By.xpath: //button[contains(@data-test,'remove-sauce-labs-backpack')]/ancestor::div[@class='cart_item']//div[@data-test='inventory-item-price'] Text :  $29.99
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.pages.CartPage] - Actual Name: Sauce Labs Backpack | Actual Price: $29.99
+[DEBUG] - [12-04-2025 00:32:37] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item-2']['name']
+[DEBUG] - [12-04-2025 00:32:37] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product-names']['item-2']['price']
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //button[contains(@data-test,'remove-sauce-labs-bike-light')]/ancestor::div[@class='cart_item']//div[@data-test='inventory-item-name']
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.xpath: //button[contains(@data-test,'remove-sauce-labs-bike-light')]/ancestor::div[@class='cart_item']//div[@data-test='inventory-item-name']
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //button[contains(@data-test,'remove-sauce-labs-bike-light')]/ancestor::div[@class='cart_item']//div[@data-test='inventory-item-name']
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.ElementAction] - Getting element text : By.xpath: //button[contains(@data-test,'remove-sauce-labs-bike-light')]/ancestor::div[@class='cart_item']//div[@data-test='inventory-item-name'] Text :  Sauce Labs Bike Light
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //button[contains(@data-test,'remove-sauce-labs-bike-light')]/ancestor::div[@class='cart_item']//div[@data-test='inventory-item-price']
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.xpath: //button[contains(@data-test,'remove-sauce-labs-bike-light')]/ancestor::div[@class='cart_item']//div[@data-test='inventory-item-price']
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //button[contains(@data-test,'remove-sauce-labs-bike-light')]/ancestor::div[@class='cart_item']//div[@data-test='inventory-item-price']
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.ElementAction] - Getting element text : By.xpath: //button[contains(@data-test,'remove-sauce-labs-bike-light')]/ancestor::div[@class='cart_item']//div[@data-test='inventory-item-price'] Text :  $9.99
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.pages.CartPage] - Actual Name: Sauce Labs Bike Light | Actual Price: $9.99
+[DEBUG] - [12-04-2025 00:32:37] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['checkout-data']['first-name']
+[DEBUG] - [12-04-2025 00:32:37] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['checkout-data']['last-name']
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //button[@data-test="checkout"]
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable :  By.xpath: //button[@data-test="checkout"]
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //button[@data-test="checkout"]
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.ElementAction] - The element is clicked and the locator is :  By.xpath: //button[@data-test="checkout"]
+[DEBUG] - [12-04-2025 00:32:37] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['checkout-data']['zip-code']
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //input[@data-test="firstName"]
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.xpath: //input[@data-test="firstName"]
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //input[@data-test="firstName"]
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.ElementAction] - The data sent to the element is :  Test_First_2025-04-12-00-32  and the locator is :  By.xpath: //input[@data-test="firstName"]
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.pages.CheckoutPage] - Typing first name: Test_First_2025-04-12-00-32 in firstname field
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //input[@data-test="lastName"]
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.xpath: //input[@data-test="lastName"]
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //input[@data-test="lastName"]
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.ElementAction] - The data sent to the element is :  Test_Last_2025-04-12-00-32  and the locator is :  By.xpath: //input[@data-test="lastName"]
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.pages.CheckoutPage] - Typing last name: Test_Last_2025-04-12-00-32 in lastname field
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //input[@data-test="postalCode"]
+[INFO] - [12-04-2025 00:32:37] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.xpath: //input[@data-test="postalCode"]
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //input[@data-test="postalCode"]
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.ElementAction] - The data sent to the element is :  596321  and the locator is :  By.xpath: //input[@data-test="postalCode"]
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.pages.CheckoutPage] - Typing zip code: 596321 in zip code field
+[DEBUG] - [12-04-2025 00:32:38] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['checkout-data']['zip-code']
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //input[@data-test="firstName"]
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.xpath: //input[@data-test="firstName"]
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //input[@data-test="firstName"]
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.ElementAction] - Getting element value : By.xpath: //input[@data-test="firstName"] Text :  Test_First_2025-04-12-00-32
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //input[@data-test="lastName"]
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.xpath: //input[@data-test="lastName"]
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //input[@data-test="lastName"]
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.ElementAction] - Getting element value : By.xpath: //input[@data-test="lastName"] Text :  Test_Last_2025-04-12-00-32
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //input[@data-test="postalCode"]
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.xpath: //input[@data-test="postalCode"]
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //input[@data-test="postalCode"]
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.ElementAction] - Getting element value : By.xpath: //input[@data-test="postalCode"] Text :  596321
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.id: continue
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable :  By.id: continue
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.id: continue
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.ElementAction] - The element is clicked and the locator is :  By.id: continue
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.pages.CheckoutPage] - Clicking on continue button
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //button[@data-test="finish"]
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable :  By.xpath: //button[@data-test="finish"]
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //button[@data-test="finish"]
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.ElementAction] - The element is clicked and the locator is :  By.xpath: //button[@data-test="finish"]
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.pages.CheckoutOverView] - Click finish button 
+[DEBUG] - [12-04-2025 00:32:38] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['checkout-final-data']['thank-you-msg']
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //h2[@data-test="complete-header"]
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.xpath: //h2[@data-test="complete-header"]
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //h2[@data-test="complete-header"]
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.utils.ElementAction] - Getting element text : By.xpath: //h2[@data-test="complete-header"] Text :  Thank you for your order!
+[INFO] - [12-04-2025 00:32:38] [main] [com.swaglabs.pages.CheckoutCompletePage] - Assert finding the thank you message
+[INFO] - [12-04-2025 00:32:39] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //button[@data-test="back-to-products"]
+[INFO] - [12-04-2025 00:32:39] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable :  By.xpath: //button[@data-test="back-to-products"]
+[INFO] - [12-04-2025 00:32:39] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //button[@data-test="back-to-products"]
+[INFO] - [12-04-2025 00:32:39] [main] [com.swaglabs.utils.ElementAction] - The element is clicked and the locator is :  By.xpath: //button[@data-test="back-to-products"]
+[INFO] - [12-04-2025 00:32:39] [main] [com.swaglabs.pages.CheckoutCompletePage] - Click finish button 
+[INFO] - [12-04-2025 00:32:39] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.id: react-burger-menu-btn
+[INFO] - [12-04-2025 00:32:39] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable :  By.id: react-burger-menu-btn
+[INFO] - [12-04-2025 00:32:39] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.id: react-burger-menu-btn
+[INFO] - [12-04-2025 00:32:39] [main] [com.swaglabs.utils.ElementAction] - The element is clicked and the locator is :  By.id: react-burger-menu-btn
+[INFO] - [12-04-2025 00:32:39] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //a[@data-test="logout-sidebar-link"]
+[INFO] - [12-04-2025 00:32:39] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable :  By.xpath: //a[@data-test="logout-sidebar-link"]
+[INFO] - [12-04-2025 00:32:39] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //a[@data-test="logout-sidebar-link"]
+[INFO] - [12-04-2025 00:32:39] [main] [com.swaglabs.utils.ElementAction] - The element is clicked and the locator is :  By.xpath: //a[@data-test="logout-sidebar-link"]
+[INFO] - [12-04-2025 00:32:41] [main] [com.swaglabs.driver.DriverManager] - Driver is closed !!!
+[INFO] - [12-04-2025 00:32:41] [main] [com.swaglabs.tests.BaseClass] - Driver is quited 
+[INFO] - [12-04-2025 00:32:43] [main] [com.swaglabs.driver.DriverManager] - The browser name is :  Edge
+[INFO] - [12-04-2025 00:32:44] [main] [com.swaglabs.utils.BrowserActions] - Opening the website :  https://www.saucedemo.com/
+[DEBUG] - [12-04-2025 00:32:44] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['users']['standardUser']['username']
+[INFO] - [12-04-2025 00:32:44] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //input[@id='user-name']
+[INFO] - [12-04-2025 00:32:45] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.xpath: //input[@id='user-name']
+[INFO] - [12-04-2025 00:32:45] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //input[@id='user-name']
+[INFO] - [12-04-2025 00:32:45] [main] [com.swaglabs.utils.ElementAction] - The data sent to the element is :  standard_user  and the locator is :  By.xpath: //input[@id='user-name']
+[DEBUG] - [12-04-2025 00:32:45] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['users']['standardUser']['password']
+[INFO] - [12-04-2025 00:32:45] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //input[@id='password']
+[INFO] - [12-04-2025 00:32:45] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.xpath: //input[@id='password']
+[INFO] - [12-04-2025 00:32:45] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //input[@id='password']
+[INFO] - [12-04-2025 00:32:45] [main] [com.swaglabs.utils.ElementAction] - The data sent to the element is :  secret_sauce  and the locator is :  By.xpath: //input[@id='password']
+[INFO] - [12-04-2025 00:32:45] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //input[@id='login-button']
+[INFO] - [12-04-2025 00:32:45] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable :  By.xpath: //input[@id='login-button']
+[INFO] - [12-04-2025 00:32:45] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //input[@id='login-button']
+[INFO] - [12-04-2025 00:32:46] [main] [com.swaglabs.utils.ElementAction] - The element is clicked and the locator is :  By.xpath: //input[@id='login-button']
+[INFO] - [12-04-2025 00:32:46] [main] [com.swaglabs.utils.BrowserActions] - Getting the current URL :  https://www.saucedemo.com/inventory.html
+[INFO] - [12-04-2025 00:32:46] [main] [com.swaglabs.utils.BrowserActions] - Getting the page title :  Swag Labs
+[DEBUG] - [12-04-2025 00:32:46] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['sort-options']['aToZ']
+[INFO] - [12-04-2025 00:32:46] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.className: product_sort_container
+[INFO] - [12-04-2025 00:32:46] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.className: product_sort_container
+[INFO] - [12-04-2025 00:32:46] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.className: product_sort_container
+[INFO] - [12-04-2025 00:32:46] [main] [com.swaglabs.utils.ElementAction] - Selected option by value:  az  from dropdown:  By.className: product_sort_container
+[INFO] - [12-04-2025 00:32:46] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.className: inventory_item_name
+[INFO] - [12-04-2025 00:32:46] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.className: inventory_item_name
+[INFO] - [12-04-2025 00:32:46] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.className: inventory_item_name
+[INFO] - [12-04-2025 00:32:46] [main] [com.swaglabs.utils.ElementAction] - Finding multiple elements with locator:  By.className: inventory_item_name
+[INFO] - [12-04-2025 00:32:46] [main] [com.swaglabs.pages.InventoryPage] - Verifying A-Z Sort:
+[INFO] - [12-04-2025 00:32:46] [main] [com.swaglabs.pages.InventoryPage] - Expected order: Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)
+[INFO] - [12-04-2025 00:32:46] [main] [com.swaglabs.pages.InventoryPage] - Actual order: Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)
+[DEBUG] - [12-04-2025 00:32:47] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['sort-options']['zToA']
+[INFO] - [12-04-2025 00:32:47] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.className: product_sort_container
+[INFO] - [12-04-2025 00:32:47] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.className: product_sort_container
+[INFO] - [12-04-2025 00:32:47] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.className: product_sort_container
+[INFO] - [12-04-2025 00:32:47] [main] [com.swaglabs.utils.ElementAction] - Selected option by value:  za  from dropdown:  By.className: product_sort_container
+[INFO] - [12-04-2025 00:32:47] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.className: inventory_item_name
+[INFO] - [12-04-2025 00:32:47] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.className: inventory_item_name
+[INFO] - [12-04-2025 00:32:47] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.className: inventory_item_name
+[INFO] - [12-04-2025 00:32:47] [main] [com.swaglabs.utils.ElementAction] - Finding multiple elements with locator:  By.className: inventory_item_name
+[INFO] - [12-04-2025 00:32:47] [main] [com.swaglabs.pages.InventoryPage] - Verifying Z-A Sort:
+[INFO] - [12-04-2025 00:32:47] [main] [com.swaglabs.pages.InventoryPage] - Expected order: Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack
+[INFO] - [12-04-2025 00:32:47] [main] [com.swaglabs.pages.InventoryPage] - Actual order: Test.allTheThings() T-Shirt (Red), Sauce Labs Onesie, Sauce Labs Fleece Jacket, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light, Sauce Labs Backpack
+[DEBUG] - [12-04-2025 00:32:48] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['sort-options']['highToLow']
+[INFO] - [12-04-2025 00:32:48] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.className: product_sort_container
+[INFO] - [12-04-2025 00:32:48] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.className: product_sort_container
+[INFO] - [12-04-2025 00:32:48] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.className: product_sort_container
+[INFO] - [12-04-2025 00:32:48] [main] [com.swaglabs.utils.ElementAction] - Selected option by value:  hilo  from dropdown:  By.className: product_sort_container
+[INFO] - [12-04-2025 00:32:48] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.className: inventory_item_price
+[INFO] - [12-04-2025 00:32:48] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.className: inventory_item_price
+[INFO] - [12-04-2025 00:32:48] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.className: inventory_item_price
+[INFO] - [12-04-2025 00:32:48] [main] [com.swaglabs.utils.ElementAction] - Finding multiple elements with locator:  By.className: inventory_item_price
+[INFO] - [12-04-2025 00:32:48] [main] [com.swaglabs.pages.InventoryPage] - Verifying Price High-Low Sort:
+[INFO] - [12-04-2025 00:32:48] [main] [com.swaglabs.pages.InventoryPage] - Expected prices: $49.99, $29.99, $15.99, $15.99, $9.99, $7.99
+[INFO] - [12-04-2025 00:32:48] [main] [com.swaglabs.pages.InventoryPage] - Actual prices: $49.99, $29.99, $15.99, $15.99, $9.99, $7.99
+[DEBUG] - [12-04-2025 00:32:48] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['sort-options']['lowToHigh']
+[INFO] - [12-04-2025 00:32:48] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.className: product_sort_container
+[INFO] - [12-04-2025 00:32:48] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.className: product_sort_container
+[INFO] - [12-04-2025 00:32:48] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.className: product_sort_container
+[INFO] - [12-04-2025 00:32:48] [main] [com.swaglabs.utils.ElementAction] - Selected option by value:  lohi  from dropdown:  By.className: product_sort_container
+[INFO] - [12-04-2025 00:32:48] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.className: inventory_item_price
+[INFO] - [12-04-2025 00:32:48] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.className: inventory_item_price
+[INFO] - [12-04-2025 00:32:49] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.className: inventory_item_price
+[INFO] - [12-04-2025 00:32:49] [main] [com.swaglabs.utils.ElementAction] - Finding multiple elements with locator:  By.className: inventory_item_price
+[INFO] - [12-04-2025 00:32:49] [main] [com.swaglabs.pages.InventoryPage] - Verifying Price Low-High Sort:
+[INFO] - [12-04-2025 00:32:49] [main] [com.swaglabs.pages.InventoryPage] - Expected prices: $7.99, $9.99, $15.99, $15.99, $29.99, $49.99
+[INFO] - [12-04-2025 00:32:49] [main] [com.swaglabs.pages.InventoryPage] - Actual prices: $7.99, $9.99, $15.99, $15.99, $29.99, $49.99

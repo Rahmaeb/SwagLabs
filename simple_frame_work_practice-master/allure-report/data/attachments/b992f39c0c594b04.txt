@@ -1,0 +1,31 @@
+[DEBUG] - [12-04-2025 00:32:24] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\rahma\AppData\Local\JetBrains\IdeaIC2024.2\temp-testng-customsuite.xml"
+[WARN] - [12-04-2025 00:32:26] [main] [org.testng.internal.Configuration] - Detected a static method [com.swaglabs.tests.BaseClass.generateAndServeReport()]. Static configuration methods can cause unexpected behavior.
+[WARN] - [12-04-2025 00:32:26] [main] [org.testng.internal.Configuration] - Detected a static method [com.swaglabs.tests.BaseClass.generateAndServeReport()]. Static configuration methods can cause unexpected behavior.
+[WARN] - [12-04-2025 00:32:26] [main] [org.testng.internal.Configuration] - Detected a static method [com.swaglabs.tests.BaseClass.generateAndServeReport()]. Static configuration methods can cause unexpected behavior.
+[WARN] - [12-04-2025 00:32:26] [main] [org.testng.internal.Configuration] - Detected a static method [com.swaglabs.tests.BaseClass.generateAndServeReport()]. Static configuration methods can cause unexpected behavior.
+[INFO] - [12-04-2025 00:32:26] [main] [com.swaglabs.listeners.TestNGListeners] - Test Execution start 
+[INFO] - [12-04-2025 00:32:26] [main] [com.swaglabs.utils.propertiesUtils] - Loading properties file data 
+[INFO] - [12-04-2025 00:32:26] [main] [com.swaglabs.utils.FilesUtils] - Skipping recently modified file: test-outputs\Logs\log_2025-04-12_00-32-24.log
+[INFO] - [12-04-2025 00:32:26] [main] [com.swaglabs.utils.FilesUtils] - Successfully cleaned directory: test-outputs\Logs
+[INFO] - [12-04-2025 00:32:26] [main] [com.swaglabs.utils.FilesUtils] - Successfully cleaned directory: test-outputs\screenshots
+[INFO] - [12-04-2025 00:32:26] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\rahma\AppData\Local\JetBrains\IdeaIC2024.2\temp-testng-customsuite.xml
+
+[INFO] - [12-04-2025 00:32:30] [main] [com.swaglabs.driver.DriverManager] - The browser name is :  Edge
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.BrowserActions] - Opening the website :  https://www.saucedemo.com/
+[DEBUG] - [12-04-2025 00:32:33] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['users']['standardUser']['username']
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //input[@id='user-name']
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.xpath: //input[@id='user-name']
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //input[@id='user-name']
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.ElementAction] - The data sent to the element is :  standard_user  and the locator is :  By.xpath: //input[@id='user-name']
+[DEBUG] - [12-04-2025 00:32:33] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login-credentials']['users']['standardUser']['password']
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //input[@id='password']
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.Waits] - Waiting for element to be visible :  By.xpath: //input[@id='password']
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //input[@id='password']
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.ElementAction] - The data sent to the element is :  secret_sauce  and the locator is :  By.xpath: //input[@id='password']
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.Waits] - Waiting for element to be present :  By.xpath: //input[@id='login-button']
+[INFO] - [12-04-2025 00:32:33] [main] [com.swaglabs.utils.Waits] - Waiting for element to be clickable :  By.xpath: //input[@id='login-button']
+[INFO] - [12-04-2025 00:32:34] [main] [com.swaglabs.utils.Scrolling] - Scrolling to the element :  By.xpath: //input[@id='login-button']
+[INFO] - [12-04-2025 00:32:34] [main] [com.swaglabs.utils.ElementAction] - The element is clicked and the locator is :  By.xpath: //input[@id='login-button']
+[INFO] - [12-04-2025 00:32:34] [main] [com.swaglabs.utils.BrowserActions] - Getting the current URL :  https://www.saucedemo.com/inventory.html
+[INFO] - [12-04-2025 00:32:34] [main] [com.swaglabs.utils.BrowserActions] - Getting the page title :  Swag Labs

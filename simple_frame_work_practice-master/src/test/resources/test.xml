@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SwagLabs Test Suite" verbose="1">
+
+    <!-- E2E Tests (Higher Priority) -->
+    <test name="E2E_Workflow">
+        <classes>
+            <class name="com.swaglabs.tests.E2e"/>
+        </classes>
+    </test>
+
+    <!-- Sorting Tests (Lower Priority) -->
+    <test name="Sorting_Tests">
+        <classes>
+            <class name="com.swaglabs.tests.SortingTest"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.swaglabs.listeners.TestNGListeners"/>
+    </listeners>
+</suite>
